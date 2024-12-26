@@ -1,0 +1,120 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.30/schema.json",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 20,
+  "default_container_padding": 20,
+  "border": true,
+  "border_width": 8,
+  "border_offset": -1,
+  "theme": {
+    "palette": "Base16",
+    "name": "CatppuccinMacchiato",
+    "unfocused_border": "Base03",
+    "bar_accent": "Base0D"
+  },
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300
+    }
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "Terminal",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Title",
+              "id": "Windows Terminal"
+            }
+          ]
+        },
+        {
+          "name": "Browser",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "msedge.exe"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Obsidian.exe"
+            }
+          ]
+        },
+        {
+          "name": "Editor",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Code.exe"
+            }
+          ]
+        },
+        {
+          "name": "Chat",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Title",
+              "id": "Mattermost"
+            }
+          ]
+        },
+        {
+          "name": "Mail",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Title",
+              "id": "Outlook"
+            }
+          ]
+        },
+        {
+          "name": "Other",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "explorer.exe"
+            }
+          ]
+        },
+        {
+          "name": "Spotify",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Title",
+              "id": "Spotify"
+            }
+          ]
+        },
+        {
+          "name": "Teams",
+          "layout": "Grid",
+          "initial_workspace_rules": [
+            {
+              "kind": "Title",
+              "id": "Teams"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
